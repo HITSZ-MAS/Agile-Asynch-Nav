@@ -10,8 +10,7 @@
   </p>
 
   <p>
-    <sup>1</sup>Affiliation One (e.g., Zhejiang University) &nbsp;&nbsp; 
-    <sup>2</sup>Affiliation Two
+    <sup>1</sup>Affiliation One &nbsp;&nbsp; 
   </p>
 
   <a href="https://arxiv.org/abs/2509.13816">
