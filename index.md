@@ -1,7 +1,12 @@
 <div align="center">
+
   
   <h1>Agile in the Face of Delay</h1>
   <h2>Asynchronous End-to-End Learning for Real-World Aerial Navigation</h2>
+
+  <p style="font-size: 1.2em; color: #b71c1c; font-weight: bold;">
+    🎉 Accepted to IEEE ICRA 2026
+  </p>
 
 <p>
     <strong>Yude Li</strong><sup>1, &dagger;</sup>, 
@@ -91,12 +96,14 @@ The policy was deployed **zero-shot** on a custom quadrotor with a Livox Mid-360
 
 ---
 
-### 📝 Citation
 
-```bibtex
-@article{AgileDelay2026,
+<h3>📝 Citation</h3>
+
+<div style="background-color: #f6f8fa; padding: 16px; border-radius: 6px; font-family: monospace; overflow: auto; font-size: 0.9em; line-height: 1.5; border: 1px solid #d0d7de;">
+<pre style="margin: 0;">@article{li2025agile,
   title={Agile in the Face of Delay: Asynchronous End-to-End Learning for Real-World Aerial Navigation},
-  author={Anonymous Author(s)},
+  author={Li, Yude and Zhou, Zhexuan and Li, Huizhe and Gong, Youmin and Mei, Jie},
   journal={arXiv preprint arXiv:2509.13816},
-  year={2026}
-}
+  year={2025}
+}</pre>
+</div>
