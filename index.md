@@ -3,14 +3,22 @@
   <h1>Agile in the Face of Delay</h1>
   <h2>Asynchronous End-to-End Learning for Real-World Aerial Navigation</h2>
 
-  <p>
-    <strong>Author Name 1</strong><sup>1</sup>, 
-    <strong>Author Name 2</strong><sup>1</sup>, 
-    <strong>Author Name 3</strong><sup>2</sup>
+<p>
+    <strong>Yude Li</strong><sup>1, &dagger;</sup>, 
+    <strong>Zhexuan Zhou</strong><sup>1, &dagger;</sup>, 
+    <strong>Huizhe Li</strong><sup>1</sup>, 
+    <strong>Youmin Gong</strong><sup>1, *</sup>,
+    <strong>Jie Mei</strong><sup>1, *</sup>
   </p>
 
   <p>
-    <sup>1</sup>Affiliation One &nbsp;&nbsp; 
+    <sup>1</sup>School of Intelligence Science and Engineering, Harbin Institute of Technology, Shenzhen, China
+  </p>
+  
+  <p style="font-size: 0.9em; color: #555;">
+    <sup>&dagger;</sup>Equal contribution
+    &nbsp;&nbsp;
+    <sup>*</sup>Co-corresponding authors
   </p>
 
   <a href="https://arxiv.org/abs/2509.13816">
@@ -31,7 +39,7 @@
 <br>
 
 <div align="center">
-  <img src="assets/teaser.gif" width="90%" alt="Drone navigating in forest">
+  <img src="first.png" width="50%" alt="Drone navigating in forest">
   <p><em>Figure 1: Zero-shot sim-to-real flight in a dense forest. Our asynchronous policy enables agile navigation even with significant sensor delays.</em></p>
 </div>
 
@@ -50,7 +58,7 @@ Validated in extensive simulations, our method was successfully deployed in **ze
 ### 🎥 Method Overview
 
 <div align="center">
-  <img src="assets/method_overview.png" width="95%" alt="Method Architecture">
+  <img src="pipeline.pdf" width="95%" alt="Method Architecture">
   <p><em>Figure 2: The Asynchronous End-to-End Learning Framework.</em></p>
 </div>
 
@@ -75,7 +83,6 @@ Even when perception is limited to 10 Hz, our method maintains a **91.08% succes
 | YOPO [13] | 67.71% | 58.51% | 9.2% |
 | **Ours (Async)** | **93.67%** | **91.08%** | **2.6%** |
 
-*(Data sourced from Table I of the paper)*
 
 #### Real-World Deployment
 The policy was deployed **zero-shot** on a custom quadrotor with a Livox Mid-360 LiDAR and Intel NUC 13.
