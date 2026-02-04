@@ -4,9 +4,7 @@
   <h1>Agile in the Face of Delay</h1>
   <h2>Asynchronous End-to-End Learning for Real-World Aerial Navigation</h2>
 
-  <p style="font-size: 1.2em; color: #b71c1c; font-weight: bold;">
-    🎉 Accepted to IEEE ICRA 2026
-  </p>
+
 
 <p>
     <strong>Yude Li</strong><sup>1, &dagger;</sup>, 
@@ -15,6 +13,7 @@
     <strong>Youmin Gong</strong><sup>1, *</sup>,
     <strong>Jie Mei</strong><sup>1, *</sup>
   </p>
+
 
   <p>
     <sup>1</sup>School of Intelligence Science and Engineering, Harbin Institute of Technology, Shenzhen, China
@@ -26,6 +25,11 @@
     <sup>*</sup>Co-corresponding authors
   </p>
 
+
+  <p style="font-size: 1.2em; color: #b71c1c; font-weight: bold;">
+    🎉 Accepted to IEEE ICRA 2026
+  </p>
+  
   <a href="https://arxiv.org/abs/2509.13816">
     <img src="https://img.shields.io/badge/Paper-ArXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
@@ -82,7 +86,7 @@ We compared our method against state-of-the-art baselines like **NavRL**, **YOPO
 #### Robustness to Low Sensor Frequency (10 Hz)
 Even when perception is limited to 10 Hz, our method maintains a **91.08% success rate**, significantly outperforming synchronous baselines which degrade severely under latency.
 
-| Model | Success Rate (100Hz Ideal) | Success Rate (10Hz Real) | Performance Loss |
+| Model | Success Rate (100Hz) | Success Rate (10Hz) | Performance Loss |
 | :--- | :---: | :---: | :---: |
 | NavRL [16] | 86.96% | 75.37% | 11.6% |
 | YOPO [13] | 67.71% | 58.51% | 9.2% |
