@@ -67,7 +67,7 @@ Validated in extensive simulations, our method was successfully deployed in **ze
 ### 🎥 Method Overview
 
 <div align="center">
-  <img src="pipeline.pdf" width="95%" alt="Method Architecture">
+  <img src="pipe.png" width="95%" alt="Method Architecture">
   <p><em>Figure 2: The Asynchronous End-to-End Learning Framework.</em></p>
 </div>
 
